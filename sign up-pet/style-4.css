@@ -1,0 +1,143 @@
+body{
+ font-family: Inter;
+ background-color: #1e1e1e;   
+}
+main{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 5% 0;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 375px;
+    background-size: 100%;
+    min-height: 812px;
+    border-radius: 32px;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+.left-container_background{
+    position: absolute;
+    z-index: -1;
+}
+.container_title{
+    padding: 73px 30px 0px;
+}
+.container_title h2{
+    font-weight: 500;
+    font-size:40px ;
+    line-height:48px ;
+}
+.container_title p{
+    font-size:20px ;
+    line-height:24px ; 
+    color: #f2f2f2;
+}
+.left-container_button{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px 40px;
+}
+.left-container_button button{
+    background: #121212;
+    border-radius: 14px;
+    padding: 14px 85px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    font-weight: 500;
+    margin: 5px;
+}
+.form-container{
+width: 375px;
+border-radius: 32px;
+background-image: url(./img\ 4/paw.png), url(./img\ 4/paw.png);
+background-repeat:no-repeat ;
+background-position: 120% -10%, 0 100%;
+background-color: #f3f3f3;
+color: #989898;
+}
+.form_content{
+    max-width: 318px;
+    margin: 0px 28px 69px;
+}
+.form_content h2{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    color: #121212;
+    margin-top: 100px;
+    margin-bottom: 35px;
+    padding-left: 12px;
+}
+.content_input{
+    display: flex;
+    flex-direction: column;
+}
+.content_input input{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0px 0px 35px;
+    background: #dedede;
+    border-radius: 10px;
+    padding: 14.5px 0px 14.5px 17px;
+    border: none;
+}
+
+span{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+    color: #272730;
+}
+.signup_button{
+    display: flex;
+    justify-content: center;
+}
+.btn_signup{
+    margin: 35px 0px 23px;
+    background: #121212;
+    border-radius: 14px;
+    padding: 14px 85px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.login_form{
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+text-align: center;
+
+}
+._option{
+    margin: 35px 0px 16px;
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 120px;
+}
+.button_container button{
+    background: #121212;
+    border-radius: 6px;
+   width: 64px;
+   height: 48px;
+   border: none;
+
+}
+
+
